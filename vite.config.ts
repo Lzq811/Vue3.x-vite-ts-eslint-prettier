@@ -28,7 +28,7 @@ export default defineConfig({
     }
   },
   resolve: {
-    extensions: ['.ts', '.tsx', .js', '.vue', '.json'],
+    extensions: ['.ts', '.tsx', '.js', '.vue', '.json'],
     alias: {
       '@api': path.resolve('src/api'),
       '@': path.resolve('src')
